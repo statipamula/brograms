@@ -1,0 +1,40 @@
+Gitlet Design
+---------------------------
+
+Classes and Data Structures
+---------------------------
+Blobs: contents of file
+    - String content : SHA-1 content of the file
+
+Commit: commits made
+    - Hashmap<String name,Blob content> files : contents of the files and names
+    - Commit prev : pointer to commit before it
+    - Date date: date commit was made
+    - String author: author of commit
+    - String message: message of commit
+    - Commit mergeparent: pointer in the case of a merge
+
+Gitlet
+
+- init
+- add
+- commit
+- rm
+- log
+- global-log
+- find
+- status
+- checkout
+- branch
+- rm-branch
+- reset
+- merge
+
+
+
+
+
+
+
+Algorithms
+---------------------------
